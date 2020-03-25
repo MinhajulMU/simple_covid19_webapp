@@ -1,0 +1,62 @@
+@media (max-width: 480px){
+.wrap{
+    width: 95%;
+}#banner .box3{
+  padding: 15px;
+  padding-top: 30px;
+}#banner .box,#banner .box2{
+  padding: 10px;
+  min-height: 100px;
+  border-radius: 15px;
+}#banner .box3 i{
+  margin-right: 10px;
+}h5{
+  font-size: 11pt;
+}h4{
+  font-size: 12pt;
+}#banner .box2 .call{
+  font-size: 12pt;
+}p{
+  font-size: 11pt;
+}h3{
+  font-size: 13pt;
+}
+
+  }
+
+  
+  @media (min-width: 480px) and (max-width: 768px) {
+    #banner .box,#banner .box2{
+      min-height: 100px;
+    }
+  }
+  @media (min-width: 768px) and (max-width: 992px) {
+    
+  }
+  @media (min-width: 992px) and (max-width: 1200px) {
+  
+}
+  @media (min-width: 1200px) {
+  
+  }
+  html {
+    font-size: 1rem;
+  }
+  
+  @include media-breakpoint-up(sm) {
+    html {
+      font-size: 1.2rem;
+    }
+  }
+  
+  @include media-breakpoint-up(md) {
+    html {
+      font-size: 1.4rem;
+    }
+  }
+  
+  @include media-breakpoint-up(lg) {
+    html {
+      font-size: 1.6rem;
+    }
+  }
